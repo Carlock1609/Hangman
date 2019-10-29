@@ -27,6 +27,6 @@ def main():
             print(f"You won! The secret word was {secret_word}!\n")
             break
         print(f"Already guessed letters are {already_guessed}.")
-        print(board_secret)
+        print(f"{board_secret}\n")
 
 main()
